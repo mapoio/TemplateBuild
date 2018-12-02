@@ -1,0 +1,43 @@
+{
+  "name": "templatebuild",
+  "version": "0.0.1",
+  "description": "Build React Or Vue Code by TemplateBuild",
+  "main": "index.js",
+  "bin": {
+    "templatebuild": "lib/command.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapoio/TemplateBuild.git"
+  },
+  "keywords": [
+    "TemplateBuild",
+    "Template",
+    "React",
+    "Vue"
+  ],
+  "author": "mapoio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mapoio/TemplateBuild/issues"
+  },
+  "homepage": "https://github.com/mapoio/TemplateBuild#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1",
+    "handlebars": "^4.0.12",
+    "inquirer": "^6.2.1",
+    "kindof": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
